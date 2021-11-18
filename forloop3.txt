@@ -1,0 +1,64 @@
+
+LENOVO@DESKTOP-TA3CLI3 MINGW64 ~
+$ vi forloop3.sh
+
+LENOVO@DESKTOP-TA3CLI3 MINGW64 ~
+$ cat forloop3.sh
+#!/bin/bash
+# file-poke - tell us stuff about files
+for i in *; do
+        echo -n "$i"
+        grep $i $i
+done
+
+LENOVO@DESKTOP-TA3CLI3 MINGW64 ~
+$ chmod u+x forloop3.sh
+
+LENOVO@DESKTOP-TA3CLI3 MINGW64 ~
+$ ./forloop3.sh
+3D Objectsgrep: Objects: No such file or directory
+grep: 3D: No such file or directory
+grep: Objects: No such file or directory
+AppDatagrep: AppData: Is a directory
+Application Datagrep: Data: No such file or directory
+grep: Application: No such file or directory
+grep: Data: No such file or directory
+Contactsgrep: Contacts: Is a directory
+Cookiesgrep: Cookies: Is a directory
+Desktopgrep: Desktop: Is a directory
+Documentsgrep: Documents: Is a directory
+Downloadsgrep: Downloads: Is a directory
+Favoritesgrep: Favorites: Is a directory
+IntelGraphicsProfilesgrep: IntelGraphicsProfiles: Is a directory
+Jedigrep: Jedi: Is a directory
+Linksgrep: Links: Is a directory
+Local Settingsgrep: Settings: No such file or directory
+grep: Local: No such file or directory
+grep: Settings: No such file or directory
+MicrosoftEdgeBackupsgrep: MicrosoftEdgeBackups: Is a directory
+Musicgrep: Music: Is a directory
+My Documentsgrep: Documents: Is a directory
+grep: My: No such file or directory
+grep: Documents: Is a directory
+NTUSER.DATgrep: NTUSER.DAT: Device or resource busy
+NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blfNTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-msNTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-msNetHoodgrep: NetHood: Is a directory
+OneDrivegrep: OneDrive: Is a directory
+Picturesgrep: Pictures: Is a directory
+PrintHoodgrep: PrintHood: Is a directory
+Recentgrep: Recent: Is a directory
+Saved Gamesgrep: Games: No such file or directory
+grep: Saved: No such file or directory
+grep: Games: No such file or directory
+Searchesgrep: Searches: Is a directory
+SendTogrep: SendTo: Is a directory
+Start Menugrep: Menu: No such file or directory
+grep: Start: No such file or directory
+grep: Menu: No such file or directory
+Templatesgrep: Templates: Is a directory
+Videosgrep: Videos: Is a directory
+forloop2.shforloop22.shforloop3.shloop2.shntuser.dat.LOG1grep: ntuser.dat.LOG1: Device or resource busy
+ntuser.dat.LOG2grep: ntuser.dat.LOG2: Device or resource busy
+ntuser.inisravani.shsravs-grep: sravs-: Is a directory
+txt.sravani.sh
+LENOVO@DESKTOP-TA3CLI3 MINGW64 ~
+$
